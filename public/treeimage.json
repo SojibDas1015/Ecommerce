@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Everyday Fresh & Clean with Our Products",
+        "button": "Shop Now",
+        "image": "https://i.ibb.co.com/hFxLHP6w/alt.png"
+    },
+    {
+        "id": 2,
+        "title": "Make your Breakfast Healthy and Easy",
+        "button": "Shop Now",
+        "image": "https://i.ibb.co.com/gZ3p2r0w/alt-2.png"
+    },
+    {
+        "id": 3,
+        "title": "The best Organic Products Online",
+        "button": "Shop Now",
+        "image": "https://i.ibb.co.com/Y7MbRN0W/alt-3.png"
+    }
+]

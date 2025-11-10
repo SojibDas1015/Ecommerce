@@ -5,3 +5,12 @@
 body{
     font-family: "Quicksand", sans-serif;
 }
+
+.swiper-button-next, .swiper-button-prev{
+    width: 25px !important;
+    height: 35px !important;
+    background-color: #3BB77E;
+    border-radius: 8px;
+    padding: 6px;
+    color: #ffffff !important;
+}

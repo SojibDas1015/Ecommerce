@@ -4,7 +4,7 @@ import { Outlet } from 'react-router'
 export default function Navbar() {
     return (
         <div>
-            <div className=" py-2 flex justify-between items-center w-10/12 mx-auto max-w-[1200px]">
+            <div className=" py-2 flex justify-between items-center w-11/12 mx-auto max-w-[1200px]">
                 <div className=" flex items-center gap-4">
                     <div className='flex gap-2 '>
                         <a className="text-xl"><img src="/public/images/logo.png" alt="" /></a>

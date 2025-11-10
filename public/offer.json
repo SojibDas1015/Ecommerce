@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Best prices & offers",
+    "subtitle": "Orders $50 or more",
+    "image": "https://i.ibb.co.com/PzwCHG0n/icon-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Free delivery",
+    "subtitle": "24/7 amazing services",
+    "image": "https://i.ibb.co.com/hnw2v9c/icon-2.png"
+  },
+  {
+    "id": 3,
+    "title": "Great daily deal",
+    "subtitle": "When you sign up",
+    "image": "https://i.ibb.co.com/ks0MFFc9/icon-3.png"
+  },
+  {
+    "id": 4,
+    "title": "Wide assortment",
+    "subtitle": "Mega Discounts",
+    "image": "https://i.ibb.co.com/DfCXQsfs/icon-4.png"
+  },
+  {
+    "id": 5,
+    "title": "Easy returns",
+    "subtitle": "Within 30 days",
+    "image": "https://i.ibb.co.com/dJsR3p5Z/icon-5.png"
+  }
+]
