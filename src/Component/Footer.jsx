@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md'
 
 export default function Footer() {
     return (
-        <div className='w-11/12 mx-auto max-w-[1200px]'>
+        <div className='w-11/12 mx-auto max-w-[1200px] pb-8'>
             <div className='grid grid-cols-1 gap-6 lg:grid-cols-7'>
                 <div className='sm:col-span-2 md:col-span-2'>
                     <div className='flex gap-2 '>
@@ -70,18 +70,18 @@ export default function Footer() {
                 <div className='space-y-5'>
                     <h4 className='text-xl font-bold'>Install App</h4>
                     <p className='text-[14px]'><a href="">From App Store or Google Play</a></p>
-                    <div className='flex gap-2 '>
-                        <div className='w-full'>
-                            <img className='border border-l-4 rounded-sm w-full' src="/images/imgw.png" alt="" />
+                    <div className='block lg:flex gap-2'>
+                        <div className='w-full mb-3'>
+                            <img className='border border-l-4 rounded-sm w-50% lg:w-full' src="/images/imgw.png" alt="" />
                         </div>
                         <div className='w-full'>
-                            <img className='border border-l-4 rounded-sm w-full' src="/images/img.png" alt="" />
+                            <img className='border border-l-4 rounded-sm w-50% lg:w-full' src="/images/img.png" alt="" />
                         </div>
                     </div>
                     <p className='text-[14px]'><a href="">Secured Payment Gateways</a></p>
 
                     <div className='w-full'>
-                        <img className='w-full' src="/images/imgvisa.png" alt="" />
+                        <img className='w-50% lg:w-full' src="/images/imgvisa.png" alt="" />
                     </div>
                 </div>
             </div>
