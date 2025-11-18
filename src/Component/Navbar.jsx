@@ -16,7 +16,7 @@ export default function Navbar() {
                                 </div>
                             </div></Link>
                         <div className='flex gap-2 hidden lg:flex'>
-                            <img className='w-5 h-5' src="/public/images/Group.png" alt="" />
+                            <img className='w-5 h-5' src="/images/Group.png" alt="" />
                             <p className='font-bold'>Hot Deals</p>
                         </div>
                     </div>
