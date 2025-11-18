@@ -14,7 +14,6 @@ export default function Home() {
       <TreeCard></TreeCard>
       <Product></Product>
       <OfferingCard></OfferingCard>
-      <Footer></Footer>
     </div>
   )
 }
