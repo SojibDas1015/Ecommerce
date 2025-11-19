@@ -12,7 +12,7 @@ export default function Product() {
     <div className='w-11/12 mx-auto max-w-[1200px]'>
       <div className='grid grid-cols-1 lg:grid-cols-5 gap-4'>
         {
-            product.map((data)=>
+            product.slice(0, 10).map((data)=>
             <ProductCard key={data.id} data={data}></ProductCard>
             )
         }

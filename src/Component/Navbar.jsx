@@ -24,11 +24,11 @@ export default function Navbar() {
                         <ul className="flex gap-9 px-1 font-bold">
                             <Link to="/About"><li>About</li></Link>
                             <li><a>Shop</a></li>
-                            <li><a>Mega Menu</a></li>
+                            <Link to="/megamenu"><li>Mega Menu</li></Link>
                             <li><a>Vendors</a></li>
                             <Link to="/Blog"><li>Blog</li></Link>
-                            <li><a href="">Pages</a></li>
-                            <li><a>Contact</a></li>
+                            <li>Pages</li>
+                            <Link to="/Contact"><li>Contact</li></Link>
                         </ul>
                     </div>
                     <div>

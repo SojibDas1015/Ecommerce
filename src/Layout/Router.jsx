@@ -6,6 +6,8 @@ import Home from "./Home";
 import Recepie from "../Component/Recepie";
 import Footer from "../Component/Footer";
 import About from "../Component/About";
+import Contact from "../Component/Contact";
+import MegaMenu from "../Component/MegaMenu";
 
 const Router = createBrowserRouter([
     {
@@ -27,6 +29,18 @@ const Router = createBrowserRouter([
                 loader: ()=> fetch("/offer.json"),
                 hydrateFallbackElement: <div>Loading...</div>,
                 element: <About></About>
+            },
+            {
+                path: "/Contact",
+                loader: ()=> fetch("contact.json"),
+                hydrateFallbackElement: <div>Loading..</div>,
+                element: <Contact></Contact>
+            },
+            {
+                path: "/megamenu",
+                loader: ()=> fetch("product.json"),
+                hydrateFallbackElement: <div>Loading..</div>,
+                element: <MegaMenu></MegaMenu>
             }
         ]
     }
