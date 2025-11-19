@@ -10,7 +10,7 @@ export default function OfferingCard() {
     <div className='w-11/12 mx-auto max-w-[1200px] py-8'>
       <div className='grid grid-cols-1 lg:grid-cols-5 gap-4'>
         {
-            offer.map((data)=>
+            offer.slice(0, 5).map((data)=>
             <OfferingCardDe key={data.id} data={data}></OfferingCardDe>
             )
         }

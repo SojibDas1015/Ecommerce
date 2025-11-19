@@ -5,6 +5,7 @@ import Featured from "../Component/Featured";
 import Home from "./Home";
 import Recepie from "../Component/Recepie";
 import Footer from "../Component/Footer";
+import About from "../Component/About";
 
 const Router = createBrowserRouter([
     {
@@ -20,6 +21,12 @@ const Router = createBrowserRouter([
                 loader: () => fetch("/blog.json"),
                 hydrateFallbackElement: <div>Loading...</div>,
                 element: <Recepie></Recepie>
+            },
+            {
+                path: "/About",
+                loader: ()=> fetch("/offer.json"),
+                hydrateFallbackElement: <div>Loading...</div>,
+                element: <About></About>
             }
         ]
     }

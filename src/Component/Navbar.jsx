@@ -22,7 +22,7 @@ export default function Navbar() {
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="flex gap-9 px-1 font-bold">
-                            <li><a>Abour</a></li>
+                            <Link to="/About"><li>About</li></Link>
                             <li><a>Shop</a></li>
                             <li><a>Mega Menu</a></li>
                             <li><a>Vendors</a></li>
