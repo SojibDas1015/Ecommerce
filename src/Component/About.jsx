@@ -7,7 +7,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 export default function About() {
     const about = useLoaderData()
     return (
-        <div className='w-10/12 mx-auto max-w-[1200px] py-8'>
+        <div className='w-10/12 mx-auto max-w-[1100px] py-8'>
             <div className='block lg:flex gap-8 items-center'>
                 <div className='w-full lg:w-[50%]'>
                     <img className='w-full' src="/images/about_left.png" alt="" />
