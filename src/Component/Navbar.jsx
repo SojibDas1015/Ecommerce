@@ -9,7 +9,7 @@ export default function Navbar() {
                     <div className=" flex items-center gap-4">
                         <Link to='/'>
                             <div className='flex gap-2 '>
-                                <a className="text-xl"><img src="/public/images/logo.png" alt="" /></a>
+                                <a className="text-xl"><img src="/images/logo.png" alt="" /></a>
                                 <div>
                                     <p className='text-4xl font-bold text-[#3BB77E]'>Nest</p>
                                     <p className='text-[9px] font-semibold'>MART & GROCERY</p>
