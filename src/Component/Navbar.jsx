@@ -23,11 +23,8 @@ export default function Navbar() {
                     <div className="navbar-center hidden lg:flex">
                         <ul className="flex gap-9 px-1 font-bold">
                             <Link to="/About"><li>About</li></Link>
-                            <li><a>Shop</a></li>
                             <Link to="/megamenu"><li>Mega Menu</li></Link>
-                            <li><a>Vendors</a></li>
                             <Link to="/Blog"><li>Blog</li></Link>
-                            <li>Pages</li>
                             <Link to="/Contact"><li>Contact</li></Link>
                         </ul>
                     </div>

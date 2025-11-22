@@ -8,6 +8,7 @@ import Footer from "../Component/Footer";
 import About from "../Component/About";
 import Contact from "../Component/Contact";
 import MegaMenu from "../Component/MegaMenu";
+import DmegaMenu from "../Component/DmegaMenu";
 
 const Router = createBrowserRouter([
     {
@@ -41,6 +42,13 @@ const Router = createBrowserRouter([
                 loader: ()=> fetch("product.json"),
                 hydrateFallbackElement: <div>Loading..</div>,
                 element: <MegaMenu></MegaMenu>
+            },
+            {
+                path: "/megamenu/:Dmegamenu",
+                loader: ({params})=> {
+                    return fetch("/product.json").then((res)=> res.json()).then((data)=> data.find( d => d.id===parseInt(params.Dmegamenu)))
+                },
+                element: <DmegaMenu></DmegaMenu>
             }
         ]
     }

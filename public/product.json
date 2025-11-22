@@ -7,7 +7,10 @@
     "image": "https://i.ibb.co.com/Psg59QPj/Foster-Farms-Takeout-Crispy-Classic.png",
     "price_now": "$17.85",
     "price_old": "$19.80",
-    "discount_percent": 10
+    "discount_percent": 10,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 2,
@@ -17,7 +20,10 @@
     "image": "https://i.ibb.co.com/3YcmFXp1/Organic-Cage-Grade-A-Large-Eggs.png",
     "price_now": "$21.00",
     "price_old": "$24.00",
-    "discount_percent": 13
+    "discount_percent": 13,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 1
   },
   {
     "id": 3,
@@ -27,7 +33,10 @@
     "image": "https://i.ibb.co.com/2Y7Wr4kp/Haagen-Caramel-Cone-Ice-Cream-Boxed.png",
     "price_now": "$22.85",
     "price_old": "$24.80",
-    "discount_percent": 8
+    "discount_percent": 8,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 4,
@@ -37,7 +46,10 @@
     "image": "https://i.ibb.co.com/QjxYCc83/All-Natural-Style-Chicken-Meatballs.png",
     "price_now": "$23.00 - $122.00",
     "price_old": null,
-    "discount_percent": 66
+    "discount_percent": 66,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 5,
@@ -47,7 +59,10 @@
     "image": "https://i.ibb.co.com/Q7jKHRF6/Blue-Almonds-Lightly-Salted-Vegetables.png",
     "price_now": "$23.85",
     "price_old": "$25.80",
-    "discount_percent": 8
+    "discount_percent": 8,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 6,
@@ -57,7 +72,10 @@
     "image": "https://i.ibb.co.com/3K6nbbZ/Gorton-s-Beer-Battered-Fish-Fillets.png",
     "price_now": "$23.85",
     "price_old": "$25.80",
-    "discount_percent": 8
+    "discount_percent": 8,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 7,
@@ -67,7 +85,10 @@
     "image": "https://i.ibb.co.com/svxpdbb8/Seeds-of-Change-Organic-Red-Rice.png",
     "price_now": "$28.85",
     "price_old": "$32.80",
-    "discount_percent": 13
+    "discount_percent": 13,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 8,
@@ -77,7 +98,10 @@
     "image": "https://i.ibb.co.com/39qzSpDz/Canada-Dry-Ginger-Ale-2-L-Bottle.png",
     "price_now": "$32.85",
     "price_old": "$33.80",
-    "discount_percent": 3
+    "discount_percent": 3,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 9,
@@ -87,7 +111,10 @@
     "image": "https://i.ibb.co.com/xtDf4JVM/Encore-Seafoods-Stuffed-Alaskan.png",
     "price_now": "$35.85",
     "price_old": "$37.80",
-    "discount_percent": 6
+    "discount_percent": 6,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 10,
@@ -97,7 +124,10 @@
     "image": "https://i.ibb.co.com/j9RjgQTL/Angie-s-Sweet-Salty-Kettle-Corn.png",
     "price_now": "$48.85",
     "price_old": "$52.80",
-    "discount_percent": 8
+    "discount_percent": 8,
+    "in_stock": true,
+    "stock_quantity": 34,
+    "estimated_delivery_days": 3
   },
   {
     "id": 11,
